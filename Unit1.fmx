@@ -1,0 +1,367 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 634
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Contents
+    Size.Width = 634.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = None
+    Sizes = (
+      634s
+      480s
+      634s
+      480s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Image2: TImage
+        MultiResBitmap.Height = 492
+        MultiResBitmap.Width = 503
+        MultiResBitmap.TransparentColor = -16777210
+        MultiResBitmap = <
+          item
+          end>
+        Align = Contents
+        Size.Width = 634.000000000000000000
+        Size.Height = 480.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Panel2: TPanel
+        Align = Center
+        Size.Width = 308.000000000000000000
+        Size.Height = 372.000000000000000000
+        Size.PlatformDefault = False
+        Visible = False
+        TabOrder = 0
+        object Text9: TText
+          Position.X = 88.000000000000000000
+          Position.Y = 16.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Se Connecter'
+          TextSettings.Font.Family = 'Palatino Linotype'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        object Text10: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 80.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'E-mail'
+          TextSettings.Font.Family = 'Palatino Linotype'
+          TextSettings.Font.Size = 14.000000000000000000
+        end
+        object Text11: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Mot de passe'
+          TextSettings.Font.Family = 'Palatino Linotype'
+          TextSettings.Font.Size = 14.000000000000000000
+        end
+        object Button1: TButton
+          StyledSettings = [Style, FontColor]
+          Position.X = 112.000000000000000000
+          Position.Y = 312.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'S'#39'identifier'
+          TextSettings.Font.Family = 'Palatino Linotype'
+          TextSettings.Font.Size = 14.000000000000000000
+        end
+        object Edit7: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          Position.X = 128.000000000000000000
+          Position.Y = 80.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Edit8: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 5
+          Position.X = 128.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Text12: TText
+          Position.X = 24.000000000000000000
+          Position.Y = 240.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'S'#39'inscrire'
+          TextSettings.Font.Family = 'Palatino Linotype'
+          OnClick = Text12Click
+        end
+      end
+      object Panel1: TPanel
+        Align = Center
+        Size.Width = 321.000000000000000000
+        Size.Height = 394.000000000000000000
+        Size.PlatformDefault = False
+        Visible = False
+        TabOrder = 1
+        object Text2: TText
+          Align = Scale
+          Position.X = 104.000000000000000000
+          Position.Y = 16.459529876708980000
+          Size.Width = 105.000000000000000000
+          Size.Height = 33.947780609130860000
+          Size.PlatformDefault = False
+          Text = 'S'#39'inscrire'
+          TextSettings.Font.Family = 'Palatino Linotype'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        object Text3: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 72.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nom'
+        end
+        object Text4: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 104.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Pr'#233'nom'
+        end
+        object Text5: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 136.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'E-mail'
+        end
+        object Text6: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 168.000000000000000000
+          Size.Width = 137.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Confirmation E-mail'
+        end
+        object Button5: TButton
+          Align = Scale
+          Position.X = 112.000000000000000000
+          Position.Y = 337.420349121093800000
+          Size.Width = 105.000000000000000000
+          Size.Height = 30.861633300781250000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'Enr'#233'gistrer'
+        end
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 6
+          Position.X = 168.000000000000000000
+          Position.Y = 72.000000000000000000
+          Size.Width = 137.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 7
+          Position.X = 168.000000000000000000
+          Position.Y = 104.000000000000000000
+          Size.Width = 137.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Edit3: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 8
+          Position.X = 168.000000000000000000
+          Position.Y = 136.000000000000000000
+          Size.Width = 137.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Edit4: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 9
+          Position.X = 168.000000000000000000
+          Position.Y = 168.000000000000000000
+          Size.Width = 137.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Text7: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 200.000000000000000000
+          Size.Width = 105.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Mot de passe'
+        end
+        object Edit5: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 10
+          Position.X = 168.000000000000000000
+          Position.Y = 200.000000000000000000
+          Size.Width = 137.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Text8: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 232.000000000000000000
+          Size.Width = 137.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Confirmer mot de passe'
+        end
+        object Edit6: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 13
+          Position.X = 168.000000000000000000
+          Position.Y = 232.000000000000000000
+          Size.Width = 137.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Button2: TButton
+        StyledSettings = [Style, FontColor]
+        Position.X = 504.000000000000000000
+        Position.Y = 22.000000000000000000
+        Size.Width = 105.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'Connexion'
+        TextSettings.Font.Family = 'Palatino Linotype'
+        TextSettings.Font.Size = 14.000000000000000000
+        OnClick = Button2Click
+      end
+      object Image1: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              00F1494441546843ED96C111C220104581B411EFD660091692A3FD5889255888
+              397AF4EA62C2EEE806821CC2019DFF661C9E8C86C7296B000000805FC6CA1A38
+              5C1F47EB9E67635C2F5B593C7943D3675EB5AFEDA59EFF7FCE0344A3EFDC703F
+              ED2FBC3195CA1A683A7EC6B9DE7A3F357E585CA0E9F837762712882EF09DDC21
+              A508F61AF129D105681449C81D528A60AF19EF6F2281E5056C3710D1E20733B9
+              434A11ECB5E3ED205F0000A001300B692F45B06F782F6016520FD65E8A60AF11
+              9F825928DE4BBD763C662100404B6016D25E8A60DFF05EC02CA41EACBD14C15E
+              233E05B350BC977AED78CC42000000FE06635EFFAB1A62E197AD4A0000000049
+              454E44AE426082}
+            FileName = 'C:\Users\KIKI\Downloads\icons8-menu-48.png'
+          end>
+        Position.X = 24.000000000000000000
+        Position.Y = 22.000000000000000000
+        Size.Width = 33.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = Image1Click
+      end
+      object Panel3: TPanel
+        Align = Left
+        Size.Width = 185.000000000000000000
+        Size.Height = 480.000000000000000000
+        Size.PlatformDefault = False
+        Visible = False
+        TabOrder = 5
+        object Button3: TButton
+          StyledSettings = [Size, Style, FontColor]
+          Position.X = 16.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Escpace Administrateur'
+          TextSettings.Font.Family = 'Palatino Linotype'
+        end
+        object Button4: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Param'#232'tre'
+        end
+        object Button6: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 160.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Quitter'
+          OnClick = Button6Click
+        end
+        object Text1: TText
+          Position.X = 48.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'MENU'
+          TextSettings.Font.Family = 'Palatino Linotype'
+          TextSettings.Font.Size = 14.000000000000000000
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+    end
+  end
+  object Timer1: TTimer
+    Left = 512
+    Top = 400
+  end
+end
